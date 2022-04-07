@@ -112,7 +112,9 @@ form input {
   padding: 0;
   line-height: 10px;
 }
-
+.google-login img{
+  height: 38px;
+}
 
 .back-login {
   width: 100%;
