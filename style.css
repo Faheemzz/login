@@ -1,0 +1,240 @@
+.modal-open {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+}
+
+.modal-header .btn-close {
+  top: -28px;
+  color: black;
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 20px;
+  right: -25px;
+  background-color: white;
+}
+
+.modal-title {
+  color: #008a45;
+  padding: 12px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 4px;
+  background: #effff4;
+  width: 100%;
+}
+
+.modal-header {
+  padding: 0;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-body {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  padding: 1rem 1.5rem;
+}
+
+.left {
+  width: 95%;
+}
+
+.modal-body .left h1 {
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.modal-body .left p {
+  font-size: 15px;
+  line-height: 21px;
+  color: #787878;
+  ;
+}
+
+.name {
+  width: 100%;
+  display: flex;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+form input {
+  color: #787878;
+  font-size: 1rem;
+  width: 100%;
+  border: none;
+  padding: 11px;
+  outline: none;
+}
+
+.form-select {
+  font-size: 1rem;
+  color: #787878;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  outline: none;
+}
+
+.i-class {
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.create-btn {
+  color: #fff;
+  background: #05C3FF;
+  width: 100%;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding: 6px 0px;
+  font-weight: 500;
+}
+
+.create-btn:hover {
+  background: #03a0cf;
+  color: #fff;
+}
+
+.google-login {
+  width: 100%;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: 400;
+  padding: 0;
+  line-height: 10px;
+}
+
+.google-login img {
+  margin-right: 2rem;
+}
+
+.back-login {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.back-login a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.fb-btn,
+.google-btn {
+  width: 100%;
+  padding: 9px 0px;
+  border: 0.6px solid #d9d9db;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background: #ffffff;
+  margin-top: 1rem;
+}
+
+p.p-top {
+  font-size: 13px;
+  line-height: 17px;
+  color: #3d3d3d;
+  font-weight: 500;
+  padding-top: 15px;
+  text-align: center;
+}
+
+p.p-top a {
+  font-size: 13px;
+  font-weight: 700;
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.right img {
+  margin-top: 1rem;
+  width: 275px;
+}
+
+.right {
+  align-items: center;
+  display: flex;
+  flex-direction: column
+}
+
+.key-points {
+  margin-top: 2rem;
+}
+
+.key-points ul li {
+  font-size: 17px;
+  line-height: 30px;
+  text-align: left;
+  letter-spacing: -0.008em;
+  color: #000000;
+  opacity: 0.6;
+}
+
+p.bottom2 {
+  margin-top: 0rem;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 45rem;
+    margin: 1.75rem auto;
+  }
+}
+
+@media (max-width: 785px) {
+  .modal-dialog {
+    max-width: 38rem;
+    margin: 2.5rem auto;
+  }
+
+  .right {
+    width: 279px;
+  }
+
+  .modal-title {
+    font-size: 10px;
+  }
+
+  .modal-header .btn-close {
+    top: 11px;
+    color: black;
+    position: absolute;
+    border: 1px solid #181616;
+    border-radius: 20px;
+    right: 13px;
+    background-color: white;
+  }
+}
+
+@media (max-width: 650px) {
+  .modal-dialog {
+    max-width: 38rem;
+    margin: 2.5rem auto;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .modal-body {
+    grid-template-columns: 1fr;
+    display: grid;
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (max-width: 525px) {
+  .modal-title {
+    display: none;
+  }
+}
