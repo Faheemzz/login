@@ -60,7 +60,8 @@
                         <button class="btn btn-danger google-login"><img src="./images/Google Old.png" alt="">
                             Google</button>
                         <div class="back-login">
-                            <a href="#" class="login-back">Back to Login</a>
+                            <a href="#" class="login-back" data-bs-target="#exampleModalToggle2"
+                                data-bs-toggle="modal">Back to Login</a>
                         </div>
                     </div>
                     <div class="right">
@@ -80,8 +81,59 @@
         </div>
     </div>
 
-    
-    <a class="btn btn-primary modal-open" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Login</a>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="left">
+                        <h1>Welcome</h1>
+                        <p>plan your career with the help of Certified Career Counsellors & AI enabled Technologies.</p>
+                        <div class="signin-heading">
+                            <p>Sign In !</p>
+                        </div>
+                        <form action="#">
+                            <div class=" i-class email">
+                                <input type="email" placeholder="Email">
+                            </div>
+                            <div class=" i-class psswd">
+                                <input type="password" placeholder="Password">
+                            </div>
+                            <a href="#" class="btn create-btn">Login</a>
+                            <div class="fp">
+                                <a href="#">Forgot your Password</a>
+                            </div>
+                        </form>
+                        <button class="btn btn-danger google-login">
+                            Login With Google <img src="./images/Google Old.png" alt=""></button>
+                        <div class="create-accnt">
+                            Don't Have An Account Yet?<a href="#" class="login-back"
+                                data-bs-target="#exampleModalToggle" data-bs-toggle="modal">SignUp !</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img src="./images/cg-logo.png" alt="logo">
+                        <img src="./images/Rectangle 4.png" alt="" class="right">
+                        <div class="key-points">
+                            <ul>
+                                <li>Choose among the Best</li>
+                                <li>Ask queries from experienced seniors</li>
+                                <li>shortlist and apply to colleges</li>
+                                <li>Always be updated</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <a class="btn btn-primary modal-open" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+        role="button">Login</a>
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
